@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import {
-  PRODUCT_NAME,
+  LRC_TITLE,
   BRAND_NAME,
   CHECKOUT_URL_1UNIT,
   CHECKOUT_URL_2UNIT,
@@ -208,7 +208,7 @@ const Index = () => {
             <div style={{ textAlign: "center" }}>
               <img
                 src={CDN_HERO_FRONT}
-                alt={`${PRODUCT_NAME} — front view`}
+                alt={`${LRC_TITLE} — front view`}
                 style={{ maxWidth: "100%", borderRadius: "20px", boxShadow: "0 20px 60px rgba(0,0,0,0.12)" }}
               />
             </div>
@@ -226,7 +226,7 @@ const Index = () => {
         <section style={{ maxWidth: "900px", margin: "0 auto", padding: "0 24px 60px" }}>
           <img
             src={CDN_HERO_ANGLE}
-            alt={`${PRODUCT_NAME} — angle view showing texture`}
+            alt={`${LRC_TITLE} — angle view showing texture`}
             style={{ width: "100%", borderRadius: "20px", objectFit: "cover", maxHeight: "500px" }}
           />
         </section>
@@ -275,8 +275,8 @@ const Index = () => {
         {/* TEXTURE / LIFESTYLE IMAGES */}
         <section style={{ maxWidth: "900px", margin: "0 auto", padding: "0 24px 80px" }}>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "24px" }}>
-            <img src={CDN_TEXTURE_1} alt={`${PRODUCT_NAME} texture`} style={{ width: "100%", borderRadius: "20px", objectFit: "cover" }} />
-            <img src={CDN_LIFESTYLE_1} alt={`${PRODUCT_NAME} lifestyle`} style={{ width: "100%", borderRadius: "20px", objectFit: "cover" }} />
+            <img src={CDN_TEXTURE_1} alt={`${LRC_TITLE} texture`} style={{ width: "100%", borderRadius: "20px", objectFit: "cover" }} />
+            <img src={CDN_LIFESTYLE_1} alt={`${LRC_TITLE} lifestyle`} style={{ width: "100%", borderRadius: "20px", objectFit: "cover" }} />
           </div>
         </section>
 
@@ -328,9 +328,9 @@ const Index = () => {
               </div>
               <p style={{ fontSize: "13px", color: COLORS.accent, marginBottom: "4px" }}>{PDP_BUNDLE_1_PER_UNIT}</p>
               <p style={{ fontSize: "14px", lineHeight: 1.7, color: COLORS.body, margin: "16px 0 24px" }}>
-                One jar of {PRODUCT_NAME} (45-60 day supply). The perfect entry point to experience the first two phases of the {PDP_MECHANISM_NAME}.
+                One jar of {LRC_TITLE} (45-60 day supply). The perfect entry point to experience the first two phases of the {PDP_MECHANISM_NAME}.
               </p>
-              <p style={{ fontSize: "14px", color: COLORS.green, fontWeight: 600, marginBottom: "24px" }}>✓ FREE: Digital "{PRODUCT_NAME} Protocol" Guide ($29 value)</p>
+              <p style={{ fontSize: "14px", color: COLORS.green, fontWeight: 600, marginBottom: "24px" }}>✓ FREE: Digital "{LRC_TITLE} Protocol" Guide ($29 value)</p>
               <CTAButton href={CHECKOUT_URL_1UNIT}>Start With 1 Jar →</CTAButton>
             </div>
 
@@ -350,7 +350,7 @@ const Index = () => {
                 Two jars (90-120 day supply). Most women notice real structural change at weeks 6-8 — this gives you the full {PDP_MECHANISM_NAME} protocol with room to feel the results settle into your skin.
               </p>
               <div style={{ fontSize: "14px", color: COLORS.green, fontWeight: 600, marginBottom: "24px" }}>
-                <div>✓ FREE: Digital "{PRODUCT_NAME} Protocol" Guide ($29 value)</div>
+                <div>✓ FREE: Digital "{LRC_TITLE} Protocol" Guide ($29 value)</div>
                 <div>✓ FREE: Mini Rose Quartz Facial Roller ($24.99 value)</div>
                 <div>✓ Free shipping included</div>
               </div>
@@ -370,7 +370,7 @@ const Index = () => {
                 Three jars (135-180 day supply). The {PDP_MECHANISM_NAME} works deepest at the 8-12 week mark — 3 jars gives you the complete protocol at the lowest price-per-jar.
               </p>
               <div style={{ fontSize: "14px", color: COLORS.green, fontWeight: 600, marginBottom: "24px" }}>
-                <div>✓ FREE: Digital "{PRODUCT_NAME} Protocol" Guide ($29 value)</div>
+                <div>✓ FREE: Digital "{LRC_TITLE} Protocol" Guide ($29 value)</div>
                 <div>✓ FREE: Rose Quartz Facial Roller ($24.99 value)</div>
                 <div>✓ FREE: 3-Pack Collagen Sheet Masks ($24.99 value)</div>
                 <div>✓ Free shipping included</div>
@@ -381,7 +381,7 @@ const Index = () => {
 
           {/* Bundle image */}
           <div style={{ textAlign: "center", marginTop: "48px" }}>
-            <img src={CDN_BUNDLE_3} alt={`${PRODUCT_NAME} 3-jar bundle`} style={{ maxWidth: "500px", width: "100%", borderRadius: "20px" }} />
+            <img src={CDN_BUNDLE_3} alt={`${LRC_TITLE} 3-jar bundle`} style={{ maxWidth: "500px", width: "100%", borderRadius: "20px" }} />
           </div>
         </section>
 
@@ -454,7 +454,7 @@ const Index = () => {
         {/* CLOSING CTA */}
         <section style={{ background: `linear-gradient(135deg, ${COLORS.headline} 0%, #5C3D2E 100%)`, padding: "80px 24px", textAlign: "center", color: "#fff" }}>
           <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-            <img src={CDN_AD_OVERLAY} alt={PRODUCT_NAME} style={{ maxWidth: "200px", marginBottom: "32px", borderRadius: "16px" }} />
+            <img src={CDN_AD_OVERLAY} alt={LRC_TITLE} style={{ maxWidth: "200px", marginBottom: "32px", borderRadius: "16px" }} />
             <p style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 300, fontSize: "20px", lineHeight: 1.7, marginBottom: "8px", opacity: 0.9 }}>
               Your skin has been asking for the right mechanism.
             </p>
