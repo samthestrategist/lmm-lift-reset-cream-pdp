@@ -14,17 +14,17 @@ export const CHECKOUT_URL_2UNIT = "https://orthocliner.myshopify.com/cart/480264
 export const CHECKOUT_URL_3UNIT = "https://orthocliner.myshopify.com/cart/48026424115355:1?discount=SECRET25";
 
 // CDN Image slots (injected by image-inject.py from cdn_slots.json)
-export const CDN_HERO_FRONT = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/lrc-hero-front_fced7eed-74a2-40be-bcb4-ededbc9b609e.png?v=1771413407";
-export const CDN_HERO_ANGLE = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/lrc-hero-angle_2f4c3143-9c46-4258-aeaf-ed0543687990.png?v=1771413407";
-export const CDN_LIFESTYLE_1 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/lrc-lifestyle-1_a23dcdd4-7c8f-4f26-9dd6-768bac423b17.png?v=1771413407";
-export const CDN_TEXTURE_1 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/lrc-texture-1_2b1570eb-a52f-440f-a27e-c34c9db6d9be.png?v=1771413408";
-export const CDN_BUNDLE_3 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/lrc-bundle-3_272cd9ef-072b-4f26-b5fa-e51efbd1ffba.png?v=1771413407";
-export const CDN_AD_OVERLAY = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/lrc-ad-overlay_f1f5a772-b5c8-4e51-af61-41b1c65f825f.png?v=1771413407";
-export const CDN_BRAND_LOGO = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/lrc-hero-front_fced7eed-74a2-40be-bcb4-ededbc9b609e.png?v=1771413407";
-export const CDN_INGREDIENT_1 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/lrc-texture-1_2b1570eb-a52f-440f-a27e-c34c9db6d9be.png?v=1771413408";
-export const CDN_INGREDIENT_2 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/lrc-lifestyle-1_a23dcdd4-7c8f-4f26-9dd6-768bac423b17.png?v=1771413407";
-export const CDN_LIFESTYLE_2 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/lrc-hero-angle_2f4c3143-9c46-4258-aeaf-ed0543687990.png?v=1771413407";
-export const CDN_BUNDLE_1 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/lrc-hero-front_fced7eed-74a2-40be-bcb4-ededbc9b609e.png?v=1771413407";
+export const CDN_HERO_FRONT = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/CDN_HERO_FRONT_b822f0bd-c802-4423-bb87-6ed4134fd2d9.png?v=1771555430";
+export const CDN_HERO_ANGLE = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/CDN_HERO_ANGLE_f0dae106-d96a-4d99-a902-c77f83c15c3a.png?v=1771555434";
+export const CDN_LIFESTYLE_1 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/CDN_LIFESTYLE_1_3767f131-0988-40b5-a69e-8317cdc30f06.png?v=1771555440";
+export const CDN_TEXTURE_1 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/CDN_LIFESTYLE_1_3767f131-0988-40b5-a69e-8317cdc30f06.png?v=1771555440";
+export const CDN_BUNDLE_3 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/CDN_BUNDLE_3_c5bd52fe-a23a-49c6-b645-c8205bcadd45.png?v=1771555437";
+export const CDN_AD_OVERLAY = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/CDN_AD_OVERLAY_646ed024-2bd9-4e8b-9b36-a844dbe7b416.png?v=1771555443";
+export const CDN_BRAND_LOGO = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/CDN_HERO_FRONT_b822f0bd-c802-4423-bb87-6ed4134fd2d9.png?v=1771555430";
+export const CDN_INGREDIENT_1 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/CDN_LIFESTYLE_1_3767f131-0988-40b5-a69e-8317cdc30f06.png?v=1771555440";
+export const CDN_INGREDIENT_2 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/CDN_LIFESTYLE_1_3767f131-0988-40b5-a69e-8317cdc30f06.png?v=1771555440";
+export const CDN_LIFESTYLE_2 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/CDN_HERO_ANGLE_f0dae106-d96a-4d99-a902-c77f83c15c3a.png?v=1771555434";
+export const CDN_BUNDLE_1 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/CDN_HERO_FRONT_b822f0bd-c802-4423-bb87-6ed4134fd2d9.png?v=1771555430";
 
 // ---- PDP COPY ----
 export const PDP_META_TITLE = "Anti-Wrinkle Firming Lifting Cream for Women | Lift Reset Cream™ | Little Miss Mineral";
